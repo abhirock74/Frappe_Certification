@@ -9,15 +9,18 @@
  "engine": "InnoDB",
  "field_order": [
   "passenger",
-  "source_airport",
   "column_break_plpm",
   "flight",
-  "destination_airport",
-  "source_airport_code",
   "section_break_hfpy",
+  "source_airport",
+  "source_airport_code",
+  "column_break_kcif",
+  "destination_airport",
   "destination_airport_code",
+  "section_break_ydot",
   "departure_date",
   "departure_time",
+  "column_break_fksp",
   "duration_of_flight"
  ],
  "fields": [
@@ -89,11 +92,24 @@
   {
    "fieldname": "column_break_plpm",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_kcif",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_ydot",
+   "fieldtype": "Section Break",
+   "label": "Departure Details"
+  },
+  {
+   "fieldname": "column_break_fksp",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-08-11 21:52:13.857965",
+ "modified": "2023-08-11 22:00:37.691047",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Ticket",
