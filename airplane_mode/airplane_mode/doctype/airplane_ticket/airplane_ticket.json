@@ -41,6 +41,7 @@
   {
    "fieldname": "destination_airport",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Destination Airport",
    "options": "Airport",
    "reqd": 1
@@ -70,6 +71,8 @@
   {
    "fieldname": "departure_date",
    "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Departure Date",
    "reqd": 1
   },
@@ -109,7 +112,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-08-11 22:00:37.691047",
+ "modified": "2023-08-11 22:03:59.280463",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Ticket",
