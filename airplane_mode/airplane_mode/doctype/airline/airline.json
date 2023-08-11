@@ -9,6 +9,7 @@
  "engine": "InnoDB",
  "field_order": [
   "model",
+  "headquarters",
   "column_break_ponm",
   "customer_care_number"
  ],
@@ -18,8 +19,7 @@
    "fieldtype": "Int",
    "in_list_view": 1,
    "label": "Founding Year ",
-   "non_negative": 1,
-   "reqd": 1
+   "non_negative": 1
   },
   {
    "fieldname": "customer_care_number",
@@ -30,6 +30,12 @@
   {
    "fieldname": "column_break_ponm",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "headquarters",
+   "fieldtype": "Data",
+   "label": "Headquarters",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
@@ -39,7 +45,7 @@
    "link_fieldname": "Airline"
   }
  ],
- "modified": "2023-08-11 22:44:54.729614",
+ "modified": "2023-08-11 23:11:56.730228",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airline",
