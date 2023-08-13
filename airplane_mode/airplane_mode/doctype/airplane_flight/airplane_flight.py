@@ -5,6 +5,5 @@
 from frappe.model.document import Document
 
 
-class AirplaneTicket(Document):
-	def before_save(self):
-		print(self)
+class AirplaneFlight(Document):
+	pass
