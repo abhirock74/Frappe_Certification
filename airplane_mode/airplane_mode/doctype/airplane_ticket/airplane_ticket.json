@@ -19,6 +19,8 @@
   "destination_airport_code",
   "section_break_no7o",
   "status",
+  "flight_price",
+  "total_amount",
   "section_break_ydot",
   "departure_time",
   "departure_date",
@@ -142,12 +144,25 @@
    "fieldtype": "Table",
    "label": "Add_ons",
    "options": "Airplane Ticket Add-on Item"
+  },
+  {
+   "fieldname": "flight_price",
+   "fieldtype": "Currency",
+   "label": "Flight Price",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Currency",
+   "label": "Total Amount",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-08-13 08:34:14.063308",
+ "modified": "2023-08-13 08:41:09.004978",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Ticket",
