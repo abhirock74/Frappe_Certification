@@ -9,6 +9,7 @@
  "field_order": [
   "first_name",
   "last_name",
+  "full_name",
   "date_of_birth"
  ],
  "fields": [
@@ -30,6 +31,12 @@
    "in_list_view": 1,
    "label": "Date Of Birth",
    "reqd": 1
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
@@ -39,7 +46,7 @@
    "link_fieldname": "Passenger"
   }
  ],
- "modified": "2023-08-11 22:51:38.537688",
+ "modified": "2023-08-13 08:04:51.777717",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Flight Passenger",
