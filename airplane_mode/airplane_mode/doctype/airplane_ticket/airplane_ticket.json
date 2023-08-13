@@ -24,7 +24,9 @@
   "departure_date",
   "column_break_fksp",
   "duration_of_flight",
-  "amended_from"
+  "amended_from",
+  "column_break_sczp",
+  "add_ons"
  ],
  "fields": [
   {
@@ -130,12 +132,22 @@
    "options": "Airplane Ticket",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "column_break_sczp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "add_ons",
+   "fieldtype": "Table",
+   "label": "Add_ons",
+   "options": "Airplane Ticket Add-on Item"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-08-13 07:45:13.402436",
+ "modified": "2023-08-13 08:34:14.063308",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Ticket",
