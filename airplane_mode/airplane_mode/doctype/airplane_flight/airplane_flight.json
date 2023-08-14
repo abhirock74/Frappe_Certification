@@ -29,11 +29,10 @@
   {
    "fieldname": "date_of_departure",
    "fieldtype": "Date",
+   "in_list_view": 1,
    "label": "Date of Departure",
    "no_copy": 1,
    "options": "Airplane Flight",
-   "print_hide": 1,
-   "read_only": 1,
    "reqd": 1
   },
   {
@@ -49,7 +48,6 @@
    "no_copy": 1,
    "options": "Airplane Flight",
    "print_hide": 1,
-   "read_only": 1,
    "reqd": 1
   },
   {
@@ -61,8 +59,9 @@
   },
   {
    "fieldname": "source_airport",
-   "fieldtype": "Data",
+   "fieldtype": "Link",
    "label": "Source Airport",
+   "options": "Airport",
    "reqd": 1
   },
   {
@@ -76,15 +75,16 @@
   },
   {
    "fieldname": "destination_airport",
-   "fieldtype": "Data",
+   "fieldtype": "Link",
    "label": "Destination Airport",
+   "options": "Airport",
    "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-08-14 10:49:41.987500",
+ "modified": "2023-08-14 11:09:35.117789",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Flight",
