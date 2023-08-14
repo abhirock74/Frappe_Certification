@@ -11,8 +11,11 @@
   "airplane",
   "date_of_departure",
   "time_of_departure",
+  "source_airport",
+  "destination_airport",
   "duration",
-  "status"
+  "status",
+  "amended_from"
  ],
  "fields": [
   {
@@ -55,12 +58,33 @@
    "fieldtype": "Select",
    "label": "Status",
    "options": "Scheduled\nCompleted\nCancelled"
+  },
+  {
+   "fieldname": "source_airport",
+   "fieldtype": "Data",
+   "label": "Source Airport",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Airplane Flight",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "destination_airport",
+   "fieldtype": "Data",
+   "label": "Destination Airport",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-08-13 12:30:06.418280",
+ "modified": "2023-08-13 12:40:31.424159",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Flight",
