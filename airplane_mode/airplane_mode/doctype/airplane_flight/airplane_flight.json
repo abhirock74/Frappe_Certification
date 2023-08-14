@@ -15,6 +15,7 @@
   "destination_airport",
   "duration",
   "status",
+  "seat",
   "amended_from"
  ],
  "fields": [
@@ -54,6 +55,7 @@
    "default": "Scheduled",
    "fieldname": "status",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Status",
    "options": "Scheduled\nCompleted\nCancelled"
   },
@@ -79,12 +81,18 @@
    "label": "Destination Airport",
    "options": "Airport",
    "reqd": 1
+  },
+  {
+   "fieldname": "seat",
+   "fieldtype": "Data",
+   "label": "Seat",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-08-14 11:09:35.117789",
+ "modified": "2023-08-14 12:19:15.899488",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Flight",

@@ -39,6 +39,7 @@
    "options": "Flight Passenger"
   },
   {
+   "fetch_from": "flight.source_airport",
    "fieldname": "source_airport",
    "fieldtype": "Link",
    "in_list_view": 1,
@@ -47,6 +48,7 @@
    "reqd": 1
   },
   {
+   "fetch_from": "flight.destination_airport",
    "fieldname": "destination_airport",
    "fieldtype": "Link",
    "label": "Destination Airport",
@@ -172,7 +174,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-08-14 10:08:24.512975",
+ "modified": "2023-08-14 12:16:50.377323",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Ticket",

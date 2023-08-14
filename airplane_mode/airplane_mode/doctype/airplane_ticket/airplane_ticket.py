@@ -8,7 +8,7 @@ from frappe.model.document import Document
 class AirplaneTicket(Document):
 	def before_save(self):
 		if self.status != 'Boarded':
-			Add_ons = self.Add_ons
+			Add_ons = self.add_ons
 			total_amount = self.flight_price
 
 			for item in Add_ons:
