@@ -11,7 +11,7 @@
         <li>{{ frappe.format_date(doc.date_of_departure) }} | {{ doc.time_of_departure}}</li>
         <li>Duration: {{frappe.utils.format_duration(doc.duration)}}</li>
     </ul>
-    <button type="button" class="btn btn-primary px-5">Book Flight</button>
+    <a href="/book-ticket-web-form/new?flight={{doc.name}}&total_amount=3000"><button type="button" class="btn btn-primary px-5">Book Flight</button></a>
 {% endblock %}
 
 <!-- this is a sample default web page template -->
