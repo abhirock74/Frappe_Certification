@@ -1,0 +1,62 @@
+{
+ "actions": [],
+ "allow_guest_to_view": 1,
+ "allow_rename": 1,
+ "autoname": "prompt",
+ "creation": "2023-08-15 08:39:07.320954",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "web_view_text",
+  "route",
+  "is_published"
+ ],
+ "fields": [
+  {
+   "fieldname": "web_view_text",
+   "fieldtype": "Data",
+   "label": "web view text"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_published",
+   "fieldtype": "Check",
+   "label": "Is Published"
+  }
+ ],
+ "has_web_view": 1,
+ "index_web_pages_for_search": 1,
+ "is_published_field": "is_published",
+ "links": [],
+ "modified": "2023-08-15 08:40:36.008654",
+ "modified_by": "Administrator",
+ "module": "Airplane Mode",
+ "name": "web views",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "route": "web-view",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
