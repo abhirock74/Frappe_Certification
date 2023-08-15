@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_guest_to_view": 1,
  "allow_rename": 1,
  "autoname": "format:{Airplane}-{MM}-{#####}",
  "creation": "2023-08-13 12:27:12.388092",
@@ -13,9 +14,12 @@
   "time_of_departure",
   "source_airport",
   "destination_airport",
+  "column_break_rmtm",
   "duration",
   "status",
   "seat",
+  "is_published",
+  "route",
   "amended_from"
  ],
  "fields": [
@@ -87,12 +91,34 @@
    "fieldtype": "Data",
    "label": "Seat",
    "read_only": 1
+  },
+  {
+   "fieldname": "column_break_rmtm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_published",
+   "fieldtype": "Check",
+   "label": "Is Published"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
   }
  ],
+ "has_web_view": 1,
  "index_web_pages_for_search": 1,
+ "is_published_field": "is_published",
  "is_submittable": 1,
- "links": [],
- "modified": "2023-08-14 12:19:15.899488",
+ "links": [
+  {
+   "link_doctype": "Airplane Ticket",
+   "link_fieldname": "flight"
+  }
+ ],
+ "modified": "2023-08-15 08:50:57.594180",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Flight",
@@ -112,6 +138,7 @@
    "write": 1
   }
  ],
+ "route": "flights",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []
