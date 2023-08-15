@@ -2,6 +2,9 @@
 <!-- this is a sample default list template -->
 <div class="card my-4" style="width: 18rem;">
 	<div class="card-body">
-	  <h5 class="card-title m-6"><a href="{{ doc.route }}">{{ doc.airplane }}</a></h5>
+	  <h5 class="card-title"><a href="{{ doc.route }}">{{ doc.airplane }}</a></h5>
+	  <p>{{doc.source_airport_code}} --> {{doc.destination_airport_code}}</p>
+	  <p> {{ doc.date_of_departure.strftime('%d %B %Y') }} | 
+		{{ doc.time_of_departure}} | {{doc.duration}}</p>
 	</div>
   </div>
