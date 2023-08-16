@@ -18,10 +18,5 @@ class AirplaneTicket(Document):
                 total_amount += item.amount
 
             self.total_amount = total_amount
-
-            random_integer = random.randint(1, 100)
-            random_letter = random.choice(string.ascii_uppercase[:5])
-            seat = f"{random_integer}{random_letter}"  # Using f-string for formatting
-            self.seat = seat
         else:
             return
