@@ -11,7 +11,8 @@
   "model",
   "headquarters",
   "column_break_ponm",
-  "customer_care_number"
+  "customer_care_number",
+  "website"
  ],
  "fields": [
   {
@@ -36,6 +37,12 @@
    "fieldtype": "Data",
    "label": "Headquarters",
    "reqd": 1
+  },
+  {
+   "fieldname": "website",
+   "fieldtype": "Data",
+   "label": "Website",
+   "options": "URL"
   }
  ],
  "index_web_pages_for_search": 1,
@@ -45,7 +52,7 @@
    "link_fieldname": "Airline"
   }
  ],
- "modified": "2023-08-11 23:11:56.730228",
+ "modified": "2023-08-16 17:58:00.464054",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airline",
