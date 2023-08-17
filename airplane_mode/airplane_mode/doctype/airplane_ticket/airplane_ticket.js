@@ -4,22 +4,19 @@
 frappe.ui.form.on("Airplane Ticket", {
 	refresh(frm) {
         frm.add_custom_button(__("Assign Seat"), function(){
-            frappe.prompt({
-                label: __("Assign  Seat"),
-                fieldname: "seat",
-                fieldtype: "Data",
-                reqd: true,
-                primary_action: function(value) {
-                    // This function will be called when the "OK" button is clicked
-                    console.log(value);
-                    frm.doc.seat = value;
-                    frm.refresh_field('seat'); // Refresh the UI for the seat field
-                    frappe.hide_msgprint(); // Close the dialog
-                },
-                primary_action_label: __("Assign")
-            });
-            frm.doc.seat= seat;
-            frm.refresh_field('seat');
+            frappe.prompt([
+                {
+                    label: __("Seat Number"),
+                    fieldname: "seat",
+                    fieldtype: "Data",
+                    reqd: true
+                }
+            ], function(values) {
+                let seat = values["seat"];
+                console.log(seat);
+                frm.doc.seat = seat;
+                frm.refresh_field('seat');
+            }, __("Assign Seat"), __("Assign"));
           }, __("Actions"));
 	},
 });
