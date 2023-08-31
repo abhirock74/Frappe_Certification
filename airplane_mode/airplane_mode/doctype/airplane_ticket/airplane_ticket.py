@@ -23,7 +23,7 @@ class AirplaneTicket(Document):
 
             self.total_amount = total_amount
         else:
-            frappe.throw("Flight is Boarded")
+            frappe.ValidationError("Flight is Boarded")
             return
 
 
