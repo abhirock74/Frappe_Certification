@@ -6,19 +6,6 @@ import frappe
 from frappe.model.document import Document
 
 class AirplaneTicket(Document):
-    # def validate(self):
-    #     flight = frappe.get_doc("Airplane Flight", self.airplane)
-    #     airplane = frappe.get_doc("Airplane", flight.airplane)
-
-    #     booked_tickets = frappe.get_all(
-    #         "Airplane Ticket",
-    #         filters={"flight": self.flight, "docstatus": 1},
-    #         fields=["name"],
-    #     )
-
-    #     if len(booked_tickets) >= airplane.capacity:
-    #         frappe.throw("Airplane is already fully booked for this flight.")
-
 
     def before_save(self):
         if self.status != 'Boarded':
@@ -31,3 +18,13 @@ class AirplaneTicket(Document):
             self.total_amount = total_amount
         else:
             return
+
+
+def before_insert(self):
+    flight = frappe.get_doc('Airplane Flight', self.flight)
+    airplane = frappe.get_doc('Airplane', flight.airplane)
+
+    booking_count = frappe.db.count('Airplane Ticket', {'flight': self.flight})
+    if booking_count == airplane.capacity or booking_count > airplane.capacity:
+        frappe.throw('Seat not available in this flight. Check another one :)')
+    return

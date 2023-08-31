@@ -2,7 +2,7 @@
  "actions": [],
  "allow_guest_to_view": 1,
  "allow_rename": 1,
- "autoname": "format:{airplane}-{MM}-{YYY}-{#####}",
+ "autoname": "format:{airplane}-{MM}-{YYYY}-{#####}",
  "creation": "2023-08-13 12:27:12.388092",
  "default_view": "List",
  "doctype": "DocType",
@@ -134,7 +134,7 @@
    "link_fieldname": "flight"
   }
  ],
- "modified": "2023-08-15 10:14:00.876323",
+ "modified": "2023-08-25 14:26:09.083788",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Flight",
