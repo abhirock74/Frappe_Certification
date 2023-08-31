@@ -6,6 +6,6 @@ from frappe.website.website_generator import WebsiteGenerator
 
 
 class AirplaneFlight(WebsiteGenerator):
-	# def before_submit	(self):
-	# 	self.status = "Completed"
+	def before_submit	(self):
+		self.status = "Completed"
 	pass

@@ -12,11 +12,18 @@ class AirplaneTicket(Document):
             Add_ons = self.add_ons
             total_amount = self.flight_price
 
+            # for item in Add_ons:
+            #     for a in item:
+                    # if(item.item == a.item):
+
+
             for item in Add_ons:
+                # print("//////ewdcsjfldskfldsilhdslil", item.item)
                 total_amount += item.amount
 
             self.total_amount = total_amount
         else:
+            frappe.throw("Flight is Boarded")
             return
 
 
