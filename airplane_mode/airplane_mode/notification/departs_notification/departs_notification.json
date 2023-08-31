@@ -1,6 +1,7 @@
 {
  "attach_print": 0,
  "channel": "System Notification",
+ "condition": "doc.status == \"Scheduled\"",
  "creation": "2023-08-15 12:34:24.815379",
  "date_changed": "date_of_departure",
  "days_in_advance": 1,
@@ -12,7 +13,7 @@
  "idx": 0,
  "is_standard": 1,
  "message": "Hii,  \n    New {{doc.name}} will arrived after 24 hours.",
- "modified": "2023-08-15 12:34:24.815379",
+ "modified": "2023-08-31 15:39:26.021070",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Departs Notification",
