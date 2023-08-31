@@ -1,17 +1,31 @@
 {% extends "templates/web.html" %}
 
 {% block page_content %}
-<h3>{{ name }}</h3>
-<br/>
-<h4>Flight Details</h4>
-	<ul>
-        {% set Airline = frappe.db.get_single_value('Airline', 'customer_care_number') %}
-        <li>Airline:{{Airline}}</li>
-        <li>{{doc.source_airport_code}} --> {{doc.destination_airport_code}}</li>
-        <li>{{ frappe.format_date(doc.date_of_departure) }} | {{ doc.time_of_departure}}</li>
-        <li>Duration: {{frappe.utils.format_duration(doc.duration)}}</li>
-    </ul>
-    <a href="/book-ticket-web-form/new?flight={{doc.name}}&total_amount=3000"><button type="button" class="btn btn-primary px-5">Book Flight</button></a>
-{% endblock %}
 
-<!-- this is a sample default web page template -->
+<h3>{{ name }}</h3>
+
+<br />
+
+<h4>Flight Details</h4>
+
+<ul>
+
+    {% set airplane = frappe.get_doc('Airplane',doc.airplane) %}
+
+    <li>Airline: {{ airplane.airline }}</li>
+    <li>{{doc.source_airport_code}} <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+        </svg> {{doc.destination_airport_code}}</li>
+
+    <li>{{ frappe.format_date(doc.date_of_departure) }} | {{ doc.time_of_departure}}</li>
+
+    <li>Duration: {{frappe.utils.format_duration(doc.duration)}}</li>
+
+</ul>
+{% set random_price = "1000" %}
+<a href="/airplane-ticket-web-form/new?flight={{doc.name}}&flight_price={{random_price}}"><button type="button"
+        class="btn btn-primary px-5">Book Flight</button></a>
+
+{% endblock %}
