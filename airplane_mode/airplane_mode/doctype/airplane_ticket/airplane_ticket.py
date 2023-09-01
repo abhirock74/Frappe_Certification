@@ -20,10 +20,12 @@ class AirplaneTicket(Document):
             for item in Add_ons:
                 # print("//////ewdcsjfldskfldsilhdslil", item.item)
                 total_amount += item.amount
-
             self.total_amount = total_amount
+
+        # here seat validation code ...
+
         else:
-            frappe.ValidationError("Flight is Boarded")
+            frappe.throw("Flight is Boarded")
             return
 
 
