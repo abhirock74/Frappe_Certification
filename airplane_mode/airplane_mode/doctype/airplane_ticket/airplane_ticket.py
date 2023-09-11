@@ -24,6 +24,11 @@ class AirplaneTicket(Document):
                 total_amount += item.amount
 
             self.total_amount = total_amount
+            # seat code heare
+            random_integer = random.randint(1, 100)
+            random_alphabet = random.choice(string.ascii_uppercase[:5])
+            seat = str(random_integer) + random_alphabet
+            self.seat = seat
         else:
             frappe.throw("Flight is Boarded")
             return
