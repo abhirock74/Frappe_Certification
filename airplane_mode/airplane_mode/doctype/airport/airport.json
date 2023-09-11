@@ -37,7 +37,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-09-12 04:04:37.724168",
+ "modified": "2023-09-12 04:05:31.839407",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airport",
@@ -83,7 +83,6 @@
    "read": 1,
    "report": 1,
    "role": "Airport Authority Personnel",
-   "select": 1,
    "share": 1,
    "write": 1
   },
