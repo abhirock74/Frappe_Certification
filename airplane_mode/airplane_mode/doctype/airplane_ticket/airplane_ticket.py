@@ -22,11 +22,11 @@ class AirplaneTicket(Document):
             for item in Add_ons:
                 onedata = item.item
                 self.Add_ons = item.item
-                print("Add_ons////////////////////////////////////////////////////////" , item.item ,unique_add_ons )
-                unique_add_ons.add(item.item)
-                if onedata in unique_add_ons:
-                    print('')
-                    frappe.throw("item alredy added")
+                # print("Add_ons////////////////////////////////////////////////////////" , item.item ,unique_add_ons )
+                # unique_add_ons.add(item.item)
+                # if onedata in unique_add_ons:
+                #     print('')
+                #     frappe.throw("item alredy added")
 
             
             total_amount += item.amount
