@@ -2,6 +2,8 @@
 # For license information, please see license.txt
 
 import frappe
+import random
+import string
 
 from frappe.model.document import Document
 
