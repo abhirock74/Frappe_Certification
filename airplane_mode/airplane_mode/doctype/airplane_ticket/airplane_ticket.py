@@ -14,22 +14,15 @@ class AirplaneTicket(Document):
             Add_ons = self.add_ons
             total_amount = self.flight_price
 
-            # for item in Add_ons:
-            #     for a in item:
-                    # if(item.item == a.item):
-
             unique_add_ons = set()
-            # for item in Add_ons:
-            #     onedata = item.item
-            #     self.Add_ons = item.item
-                # print("Add_ons////////////////////////////////////////////////////////" , item.item ,unique_add_ons )
-                # unique_add_ons.add(item.item)
-                # if onedata in unique_add_ons:
-                #     print('')
-                #     frappe.throw("item alredy added")
-
-            
-            # total_amount += item.amount
+            for items in Add_ons:
+                if items.item in unique_add_ons:
+                    frappe.throw(items.item +" "+" item alredy added")
+                else:
+                    unique_add_ons.add(items.item)
+                    total_amount += items.amount
+                        # frappe.throw("item alredy added")
+            print(unique_add_ons)
 
             self.total_amount = total_amount
 
