@@ -6,6 +6,14 @@ app_email = "abhishek.singh@suvaidyam.com"
 app_license = "MIT"
 # required_apps = []
 
+fixtures=[
+    "Airplane",
+    "Airplane Ticket Add-on Type",
+    "Airline",
+    "Airport",
+    "Flight Passenger"
+]
+
 # Includes in <head>
 # ------------------
 
