@@ -1,0 +1,20 @@
+[
+ {
+  "city": "Patna",
+  "code": "PT01",
+  "country": "India",
+  "docstatus": 0,
+  "doctype": "Airport",
+  "modified": "2023-10-27 07:26:21.856959",
+  "name": "Patna Airport"
+ },
+ {
+  "city": "Delhi",
+  "code": "DL001",
+  "country": "India",
+  "docstatus": 0,
+  "doctype": "Airport",
+  "modified": "2023-10-27 07:26:56.504748",
+  "name": "Delhi Airoprt"
+ }
+]

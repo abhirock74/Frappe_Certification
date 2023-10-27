@@ -1,0 +1,12 @@
+[
+ {
+  "customer_care_number": "123",
+  "docstatus": 0,
+  "doctype": "Airline",
+  "headquarters": "Dehi",
+  "model": 2001,
+  "modified": "2023-10-27 07:23:10.496528",
+  "name": "Air india",
+  "website": "https://www.airindia.com/"
+ }
+]

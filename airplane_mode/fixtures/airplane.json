@@ -1,0 +1,12 @@
+[
+ {
+  "airline": "Air india",
+  "capacity": 5,
+  "docstatus": 0,
+  "doctype": "Airplane",
+  "initial_audit_completed": 0,
+  "model": "AIR01",
+  "modified": "2023-10-27 07:25:40.282896",
+  "name": "Air india-001"
+ }
+]
