@@ -19,9 +19,9 @@ class AirplaneTicket(Document):
                     # if(item.item == a.item):
 
             unique_add_ons = set()
-            for item in Add_ons:
-                onedata = item.item
-                self.Add_ons = item.item
+            # for item in Add_ons:
+            #     onedata = item.item
+            #     self.Add_ons = item.item
                 # print("Add_ons////////////////////////////////////////////////////////" , item.item ,unique_add_ons )
                 # unique_add_ons.add(item.item)
                 # if onedata in unique_add_ons:
@@ -29,7 +29,7 @@ class AirplaneTicket(Document):
                 #     frappe.throw("item alredy added")
 
             
-            total_amount += item.amount
+            # total_amount += item.amount
 
             self.total_amount = total_amount
 
