@@ -22,11 +22,9 @@ class AirplaneTicket(Document):
                     unique_add_ons.add(items.item)
                     total_amount += items.amount
                         # frappe.throw("item alredy added")
-            print(unique_add_ons)
+            # print(unique_add_ons)
 
             self.total_amount = total_amount
-
-
             # seat code heare
             random_integer = random.randint(1, 100)
             random_alphabet = random.choice(string.ascii_uppercase[:5])
@@ -37,11 +35,12 @@ class AirplaneTicket(Document):
             return
 
 
-def before_insert(self):
-    flight = frappe.get_doc('Airplane Flight', self.flight)
-    airplane = frappe.get_doc('Airplane', flight.airplane)
 
-    booking_count = frappe.db.count('Airplane Ticket', {'flight': self.flight})
-    if booking_count == airplane.capacity or booking_count > airplane.capacity:
-        frappe.throw('Seat not available in this flight. Check another one :)')
-    return
+    def before_insert(self):
+            # check seat is full or not
+            flight = frappe.get_doc('Airplane Flight', self.flight)
+            airplane = frappe.get_doc('Airplane', flight.airplane)
+            booking_count = frappe.db.count('Airplane Ticket', {'flight': self.flight})
+            if booking_count >= airplane.capacity:
+                frappe.throw('Seat not available in this flight. Check another one :)')
+                return
