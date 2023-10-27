@@ -107,6 +107,7 @@
   {
    "fieldname": "route",
    "fieldtype": "Data",
+   "hidden": 1,
    "label": "Route"
   },
   {
@@ -134,7 +135,7 @@
    "link_fieldname": "flight"
   }
  ],
- "modified": "2023-09-12 04:10:04.659074",
+ "modified": "2023-10-27 20:25:28.389958",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Flight",
