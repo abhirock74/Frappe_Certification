@@ -11,6 +11,7 @@
  "field_order": [
   "flight_details_section",
   "airplane",
+  "airline",
   "date_of_departure",
   "time_of_departure",
   "column_break_rmtm",
@@ -175,6 +176,13 @@
   {
    "fieldname": "column_break_gmsi",
    "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "airplane.airline",
+   "fieldname": "airline",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Airline"
   }
  ],
  "has_web_view": 1,
@@ -187,7 +195,7 @@
    "link_fieldname": "flight"
   }
  ],
- "modified": "2023-10-28 12:12:01.918121",
+ "modified": "2023-10-28 17:03:51.994527",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Flight",

@@ -21,14 +21,21 @@ frappe.ui.form.on("Airplane Flight", {
           frm.fields_dict["pilot"].get_query = function (doc) {
             return {
               filters: {
-                pilot_type: "Captain",
+                pilot_type: "Select Airplane First",
               },
             };
           },
           frm.fields_dict["co_pilot"].get_query = function (doc) {
             return {
               filters: {
-                pilot_type: "Co-pilot",
+                pilot_type: "Select Airplane First",
+              },
+            };
+          },
+          frm.fields_dict["flight_attendants"].get_query = function (doc) {
+            return {
+              filters: {
+                airline: "Select Airplane First"
               },
             };
           }
@@ -41,5 +48,35 @@ frappe.ui.form.on("Airplane Flight", {
               },
             };
           }
+    },
+    airplane:function(frm){
+      // console.log("airplane", frm.doc.airline)
+      // ///////////////////////////////////////////////////////////////////////
+      frm.fields_dict["pilot"].get_query = function (doc) {
+        return {
+          filters: {
+            pilot_type: "Captain",
+            airlines: frm.doc.airline
+          },
+        };
+      },
+      // co-pilot
+      frm.fields_dict["co_pilot"].get_query = function (doc) {
+        return {
+          filters: {
+            pilot_type: "Co-pilot",
+            airlines: frm.doc.airline
+          },
+        };
+      },
+      frm.fields_dict["flight_attendants"].get_query = function (doc) {
+        return {
+          filters: {
+            airline: frm.doc.airline
+          },
+        };
+      }
+      
     }
+
 });
