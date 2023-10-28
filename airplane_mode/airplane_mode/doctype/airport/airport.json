@@ -9,8 +9,11 @@
  "engine": "InnoDB",
  "field_order": [
   "code",
+  "column_break_jfdd",
   "city",
-  "country"
+  "section_break_bdsc",
+  "country",
+  "add_gate"
  ],
  "fields": [
   {
@@ -33,11 +36,26 @@
    "in_list_view": 1,
    "label": "Country",
    "reqd": 1
+  },
+  {
+   "fieldname": "column_break_jfdd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_bdsc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "add_gate",
+   "fieldtype": "Table",
+   "label": "Add Gates",
+   "options": "Airoprt Gate",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-09-12 04:05:31.839407",
+ "modified": "2023-10-28 16:31:59.221532",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airport",

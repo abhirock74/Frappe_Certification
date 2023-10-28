@@ -11,7 +11,9 @@ fixtures=[
     "Airplane Ticket Add-on Type",
     "Airline",
     "Airport",
-    "Flight Passenger"
+    "Flight Passenger",
+    "Flight Attendant",
+    "Pilots"
 ]
 
 # Includes in <head>

@@ -8,5 +8,15 @@
   "model": "AIR01",
   "modified": "2023-10-27 07:25:40.282896",
   "name": "Air india-001"
+ },
+ {
+  "airline": "Go Air",
+  "capacity": 3,
+  "docstatus": 0,
+  "doctype": "Airplane",
+  "initial_audit_completed": 0,
+  "model": "R002",
+  "modified": "2023-10-28 11:37:41.428731",
+  "name": "Go Air-004"
  }
 ]

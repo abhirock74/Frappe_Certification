@@ -1,5 +1,6 @@
 [
  {
+  "add_gate": [],
   "city": "Patna",
   "code": "PT01",
   "country": "India",
@@ -9,12 +10,13 @@
   "name": "Patna Airport"
  },
  {
+  "add_gate": [],
   "city": "Delhi",
   "code": "DL001",
   "country": "India",
   "docstatus": 0,
   "doctype": "Airport",
-  "modified": "2023-10-27 07:26:56.504748",
+  "modified": "2023-10-28 16:30:14.047265",
   "name": "Delhi Airoprt"
  }
 ]

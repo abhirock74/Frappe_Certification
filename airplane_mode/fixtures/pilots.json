@@ -1,0 +1,56 @@
+[
+ {
+  "airlines": "Air india",
+  "docstatus": 0,
+  "doctype": "Pilots",
+  "modified": "2023-10-28 11:31:18.593456",
+  "name": "P-Air india-0001",
+  "pilot_name": "Rahul Katari",
+  "pilot_type": "Captain"
+ },
+ {
+  "airlines": "Air india",
+  "docstatus": 0,
+  "doctype": "Pilots",
+  "modified": "2023-10-28 11:32:01.123891",
+  "name": "P-Air india-0003",
+  "pilot_name": "Ritesh",
+  "pilot_type": "Co-pilot"
+ },
+ {
+  "airlines": "Air india",
+  "docstatus": 0,
+  "doctype": "Pilots",
+  "modified": "2023-10-28 16:33:22.481653",
+  "name": "P-Air india-0005",
+  "pilot_name": "Abhishek Yadav",
+  "pilot_type": "Co-pilot"
+ },
+ {
+  "airlines": "Air india",
+  "docstatus": 0,
+  "doctype": "Pilots",
+  "modified": "2023-10-28 16:33:35.777301",
+  "name": "P-Air india-0006",
+  "pilot_name": "Abhishek Singh",
+  "pilot_type": "Co-pilot"
+ },
+ {
+  "airlines": "Go Air",
+  "docstatus": 0,
+  "doctype": "Pilots",
+  "modified": "2023-10-28 16:33:48.276133",
+  "name": "P-Go Air-0007",
+  "pilot_name": "Aniket Singh",
+  "pilot_type": "Captain"
+ },
+ {
+  "airlines": "Go Air",
+  "docstatus": 0,
+  "doctype": "Pilots",
+  "modified": "2023-10-28 16:34:00.959668",
+  "name": "P-Go Air-0008",
+  "pilot_name": "Sujeet Yadav",
+  "pilot_type": "Co-pilot"
+ }
+]

@@ -1,5 +1,15 @@
 [
  {
+  "customer_care_number": "1800200300",
+  "docstatus": 0,
+  "doctype": "Airline",
+  "headquarters": "Delhi",
+  "model": 2002,
+  "modified": "2023-10-28 11:36:40.418230",
+  "name": "Go Air",
+  "website": "https://www.flygofirst.com/"
+ },
+ {
   "customer_care_number": "123",
   "docstatus": 0,
   "doctype": "Airline",
