@@ -1,0 +1,43 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"J9iCKDYFCV\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Airlines</span>\",\"col\":12}},{\"id\":\"m48AmHAX_d\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Airline\",\"col\":3}},{\"id\":\"MEKPC9XSAv\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Airplane\",\"col\":3}}]",
+ "creation": "2023-10-28 11:19:12.664397",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "upload",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Airlines",
+ "links": [],
+ "modified": "2023-10-28 11:23:41.658224",
+ "modified_by": "Administrator",
+ "module": "Airplane Mode",
+ "name": "Airlines",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 4.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Airline",
+   "link_to": "Airline",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Airplane",
+   "link_to": "Airplane",
+   "type": "DocType"
+  }
+ ],
+ "title": "Airlines"
+}

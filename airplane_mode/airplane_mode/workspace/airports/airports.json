@@ -1,0 +1,36 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"PU6z58YzeE\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Airports</span>\",\"col\":12}},{\"id\":\"30Ecpotvow\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Airport\",\"col\":3}}]",
+ "creation": "2023-10-28 11:23:15.138931",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "change",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Airports",
+ "links": [],
+ "modified": "2023-10-28 11:24:53.897498",
+ "modified_by": "Administrator",
+ "module": "Airplane Mode",
+ "name": "Airports",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 2.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Airport",
+   "link_to": "Airport",
+   "type": "DocType"
+  }
+ ],
+ "title": "Airports"
+}
