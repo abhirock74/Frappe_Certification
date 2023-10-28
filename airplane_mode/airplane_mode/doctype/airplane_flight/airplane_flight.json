@@ -9,20 +9,28 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "flight_details_section",
   "airplane",
   "date_of_departure",
   "time_of_departure",
-  "source_airport",
-  "source_airport_code",
-  "destination_airport",
-  "destination_airport_code",
   "column_break_rmtm",
   "duration",
   "status",
   "seat",
   "is_published",
   "route",
-  "amended_from"
+  "amended_from",
+  "airport_details_section",
+  "source_airport",
+  "source_airport_code",
+  "column_break_gmsi",
+  "destination_airport",
+  "destination_airport_code",
+  "crew_members_details_section",
+  "pilot",
+  "co_pilot",
+  "column_break_nvqy",
+  "flight_attendants"
  ],
  "fields": [
   {
@@ -123,6 +131,50 @@
    "fieldtype": "Data",
    "label": "Destination Airport Code",
    "read_only": 1
+  },
+  {
+   "fieldname": "flight_details_section",
+   "fieldtype": "Section Break",
+   "label": "Flight Details"
+  },
+  {
+   "fieldname": "crew_members_details_section",
+   "fieldtype": "Section Break",
+   "label": "Crew Members Details"
+  },
+  {
+   "fieldname": "pilot",
+   "fieldtype": "Link",
+   "label": "Pilot",
+   "options": "Pilots",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_nvqy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "co_pilot",
+   "fieldtype": "Link",
+   "label": "Co Pilot",
+   "options": "Pilots",
+   "reqd": 1
+  },
+  {
+   "fieldname": "flight_attendants",
+   "fieldtype": "Table MultiSelect",
+   "label": "Flight Attendants",
+   "options": "Flight Attendant Child",
+   "reqd": 1
+  },
+  {
+   "fieldname": "airport_details_section",
+   "fieldtype": "Section Break",
+   "label": "Airport Details"
+  },
+  {
+   "fieldname": "column_break_gmsi",
+   "fieldtype": "Column Break"
   }
  ],
  "has_web_view": 1,
@@ -135,7 +187,7 @@
    "link_fieldname": "flight"
   }
  ],
- "modified": "2023-10-27 20:25:28.389958",
+ "modified": "2023-10-28 12:12:01.918121",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Flight",
