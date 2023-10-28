@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"J9iCKDYFCV\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Airlines</span>\",\"col\":12}},{\"id\":\"m48AmHAX_d\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Airline\",\"col\":3}},{\"id\":\"MEKPC9XSAv\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Airplane\",\"col\":3}}]",
+ "content": "[{\"id\":\"J9iCKDYFCV\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Airlines</span>\",\"col\":12}},{\"id\":\"m48AmHAX_d\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Airline\",\"col\":3}},{\"id\":\"MEKPC9XSAv\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Airplane\",\"col\":3}},{\"id\":\"x1UlUgdrtC\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Flights\",\"col\":3}}]",
  "creation": "2023-10-28 11:19:12.664397",
  "custom_blocks": [],
  "docstatus": 0,
@@ -12,7 +12,7 @@
  "is_hidden": 0,
  "label": "Airlines",
  "links": [],
- "modified": "2023-10-28 11:23:41.658224",
+ "modified": "2023-10-28 11:29:42.591493",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airlines",
@@ -24,6 +24,13 @@
  "roles": [],
  "sequence_id": 4.0,
  "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Flights",
+   "link_to": "Airplane Flight",
+   "type": "DocType"
+  },
   {
    "color": "Grey",
    "doc_view": "List",

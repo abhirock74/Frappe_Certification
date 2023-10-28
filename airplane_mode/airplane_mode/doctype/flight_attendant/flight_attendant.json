@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:F-A-{airline}-{#####}",
+ "autoname": "format:FA-{airline}-{#####}",
  "creation": "2023-10-28 09:49:30.261300",
  "default_view": "List",
  "doctype": "DocType",
@@ -30,7 +30,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-10-28 09:57:31.650743",
+ "modified": "2023-10-28 11:32:33.526631",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Flight Attendant",
