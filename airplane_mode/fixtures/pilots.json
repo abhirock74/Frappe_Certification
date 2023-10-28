@@ -27,13 +27,13 @@
   "pilot_type": "Co-pilot"
  },
  {
-  "airlines": "Air india",
+  "airlines": "Go Air",
   "docstatus": 0,
   "doctype": "Pilots",
-  "modified": "2023-10-28 16:33:35.777301",
+  "modified": "2023-10-28 17:30:59.825951",
   "name": "P-Air india-0006",
   "pilot_name": "Abhishek Singh",
-  "pilot_type": "Co-pilot"
+  "pilot_type": "Captain"
  },
  {
   "airlines": "Go Air",

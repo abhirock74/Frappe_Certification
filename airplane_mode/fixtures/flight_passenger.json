@@ -8,5 +8,35 @@
   "last_name": "Kumar",
   "modified": "2023-10-27 07:24:16.816632",
   "name": 1
+ },
+ {
+  "date_of_birth": "1995-08-24",
+  "docstatus": 0,
+  "doctype": "Flight Passenger",
+  "first_name": "Ritesh",
+  "full_name": "Ritesh Yadav",
+  "last_name": "Yadav",
+  "modified": "2023-10-28 17:46:37.231636",
+  "name": 2
+ },
+ {
+  "date_of_birth": "2001-02-01",
+  "docstatus": 0,
+  "doctype": "Flight Passenger",
+  "first_name": "Aniket ",
+  "full_name": "Aniket  Singh",
+  "last_name": "Singh",
+  "modified": "2023-10-28 17:47:02.476097",
+  "name": 3
+ },
+ {
+  "date_of_birth": "2001-02-22",
+  "docstatus": 0,
+  "doctype": "Flight Passenger",
+  "first_name": "Samar",
+  "full_name": "Samar Singh",
+  "last_name": "Singh",
+  "modified": "2023-10-28 17:47:58.349383",
+  "name": 4
  }
 ]

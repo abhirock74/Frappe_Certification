@@ -1,22 +1,54 @@
 [
  {
-  "add_gate": [],
+  "add_gate": [
+   {
+    "gate_no": "T1",
+    "parent": "Patna Airport",
+    "parentfield": "add_gate",
+    "parenttype": "Airport"
+   },
+   {
+    "gate_no": "T2",
+    "parent": "Patna Airport",
+    "parentfield": "add_gate",
+    "parenttype": "Airport"
+   }
+  ],
   "city": "Patna",
   "code": "PT01",
   "country": "India",
   "docstatus": 0,
   "doctype": "Airport",
-  "modified": "2023-10-27 07:26:21.856959",
+  "modified": "2023-10-28 16:53:23.105768",
   "name": "Patna Airport"
  },
  {
-  "add_gate": [],
+  "add_gate": [
+   {
+    "gate_no": "T1",
+    "parent": "Delhi Airoprt",
+    "parentfield": "add_gate",
+    "parenttype": "Airport"
+   },
+   {
+    "gate_no": "T2",
+    "parent": "Delhi Airoprt",
+    "parentfield": "add_gate",
+    "parenttype": "Airport"
+   },
+   {
+    "gate_no": "T3",
+    "parent": "Delhi Airoprt",
+    "parentfield": "add_gate",
+    "parenttype": "Airport"
+   }
+  ],
   "city": "Delhi",
   "code": "DL001",
   "country": "India",
   "docstatus": 0,
   "doctype": "Airport",
-  "modified": "2023-10-28 16:30:14.047265",
+  "modified": "2023-10-28 16:51:07.342970",
   "name": "Delhi Airoprt"
  }
 ]
