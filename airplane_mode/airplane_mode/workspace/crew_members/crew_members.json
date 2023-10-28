@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"gp-hRNV8GO\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\">Crew Members</span>\",\"col\":12}}]",
+ "content": "[{\"id\":\"gp-hRNV8GO\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px;\\\">Crew Members</span>\",\"col\":12}},{\"id\":\"45hwqfC6HJ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Pilots\",\"col\":3}},{\"id\":\"Gdk2P-4VKD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Flight Attendant\",\"col\":3}}]",
  "creation": "2023-10-28 11:02:44.761735",
  "custom_blocks": [],
  "docstatus": 0,
@@ -12,7 +12,7 @@
  "is_hidden": 0,
  "label": "Crew Members",
  "links": [],
- "modified": "2023-10-28 11:04:07.676867",
+ "modified": "2023-10-28 11:19:24.545322",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Crew Members",
@@ -22,7 +22,22 @@
  "public": 1,
  "quick_lists": [],
  "roles": [],
- "sequence_id": 1.1,
- "shortcuts": [],
+ "sequence_id": 2.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Pilots",
+   "link_to": "Pilots",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Flight Attendant",
+   "link_to": "Flight Attendant",
+   "type": "DocType"
+  }
+ ],
  "title": "Crew Members"
 }
