@@ -1,29 +1,47 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:P-{airlines}-{####}",
  "creation": "2023-10-28 07:37:11.771459",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "name1"
+  "name1",
+  "airlines",
+  "pilot_type"
  ],
  "fields": [
   {
    "fieldname": "name1",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Name",
+   "label": "Pilot Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "airlines",
+   "fieldtype": "Link",
+   "label": "Airlines",
+   "options": "Airline",
+   "reqd": 1
+  },
+  {
+   "fieldname": "pilot_type",
+   "fieldtype": "Select",
+   "label": "Pilot Type",
+   "options": "\nCaptain\nCo-pilot",
    "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-10-28 07:37:11.771459",
+ "modified": "2023-10-28 08:39:41.793555",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
- "name": "Crew Members",
+ "name": "Pilots",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
