@@ -8,18 +8,11 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "name1",
+  "pilot_name",
   "airlines",
   "pilot_type"
  ],
  "fields": [
-  {
-   "fieldname": "name1",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Pilot Name",
-   "reqd": 1
-  },
   {
    "fieldname": "airlines",
    "fieldtype": "Link",
@@ -33,11 +26,18 @@
    "label": "Pilot Type",
    "options": "\nCaptain\nCo-pilot",
    "reqd": 1
+  },
+  {
+   "fieldname": "pilot_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Pilot Name",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-10-28 08:39:41.793555",
+ "modified": "2023-10-28 09:57:11.458681",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Pilots",
@@ -57,7 +57,9 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "pilot_name"
 }
