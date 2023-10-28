@@ -10,6 +10,20 @@ frappe.ui.form.on("Airplane Flight", {
                 name: "please select Current state",
               },
             };
+          },
+          frm.fields_dict["pilot"].get_query = function (doc) {
+            return {
+              filters: {
+                pilot_type: "Captain",
+              },
+            };
+          },
+          frm.fields_dict["co_pilot"].get_query = function (doc) {
+            return {
+              filters: {
+                pilot_type: "Co-pilot",
+              },
+            };
           }
 	},
     source_airport:function(frm){
