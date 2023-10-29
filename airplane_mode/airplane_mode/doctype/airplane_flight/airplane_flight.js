@@ -1,27 +1,32 @@
 // Copyright (c) 2023, abhishek kumar and contributors
 // For license information, please see license.txt
+function get_airport_gate(airport , call_from){
+  frappe.call({
+    method: 'airplane_mode.api.get_airport_gate',
+    args: {
+        airport: airport,
+    },
+    freeze:true,
+    freeze_message: __("Calling"),
+    callback: async function(response) {
+      if(call_from ==='source_airport'){
+        set_field_options("source_gate", response.message)
+      }else if(call_from ==='destination_airport'){
+        set_field_options("destination_gate", response.message)
+      }
+        if (response.message) {
+            console.log(response.message);
+        } else {
+            console.error(response.exc);
+        }
+    }
 
+
+});
+}
 frappe.ui.form.on("Airplane Flight", {
 	refresh(frm) {
-   let data = frappe.call({
-      method: 'airplane_mode.api.get_airport_gate',
-      args: {
-          // Pass any arguments to your function here
-          airport: 'Delhi Airoprt',
-      },
-      freeze:true,
-      freeze_message: __("Calling"),
-      callback: function(response) {
-          // Handle the response from the server here
-          if (response.message) {
-              // Access the data returned by your API
-              console.log(response.message);
-          } else {
-              // Handle any errors
-              console.error(response.exc);
-          }
-      }
-  });
+
 
     // hide advance search and create new option in lists
     frm.set_df_property('airplane', 'only_select', true);
@@ -67,7 +72,13 @@ frappe.ui.form.on("Airplane Flight", {
                 name: ['!=', frm.doc.source_airport]
               },
             };
-          }
+          },
+          get_airport_gate(frm.doc.source_airport , 'source_airport');
+          // calling custom apis
+
+    },
+    destination_airport:function(frm){
+      get_airport_gate(frm.doc.destination_airport , 'destination_airport');
     },
     airplane:function(frm){
       // console.log("airplane", frm.doc.airline)
@@ -97,6 +108,6 @@ frappe.ui.form.on("Airplane Flight", {
         };
       }
       
-    }
+    },
 
 });

@@ -189,14 +189,16 @@
   {
    "fetch_from": ".",
    "fieldname": "source_gate",
-   "fieldtype": "Data",
-   "label": "Source Gate"
+   "fieldtype": "Select",
+   "label": "Select Source Gate",
+   "reqd": 1
   },
   {
    "fetch_from": ".",
    "fieldname": "destination_gate",
-   "fieldtype": "Data",
-   "label": "Destination Gate"
+   "fieldtype": "Select",
+   "label": "Select Destination Gate",
+   "reqd": 1
   }
  ],
  "has_web_view": 1,
@@ -209,7 +211,7 @@
    "link_fieldname": "flight"
   }
  ],
- "modified": "2023-10-28 19:29:00.459362",
+ "modified": "2023-10-29 10:26:25.337439",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Flight",
