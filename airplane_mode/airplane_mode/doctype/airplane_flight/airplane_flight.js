@@ -3,6 +3,26 @@
 
 frappe.ui.form.on("Airplane Flight", {
 	refresh(frm) {
+   let data = frappe.call({
+      method: 'airplane_mode.api.get_airport_gate',
+      args: {
+          // Pass any arguments to your function here
+          airport: 'Delhi Airoprt',
+      },
+      freeze:true,
+      freeze_message: __("Calling"),
+      callback: function(response) {
+          // Handle the response from the server here
+          if (response.message) {
+              // Access the data returned by your API
+              console.log(response.message);
+          } else {
+              // Handle any errors
+              console.error(response.exc);
+          }
+      }
+  });
+
     // hide advance search and create new option in lists
     frm.set_df_property('airplane', 'only_select', true);
     frm.set_df_property('source_airport', 'only_select', true);

@@ -24,9 +24,11 @@
   "airport_details_section",
   "source_airport",
   "source_airport_code",
+  "source_gate",
   "column_break_gmsi",
   "destination_airport",
   "destination_airport_code",
+  "destination_gate",
   "crew_members_details_section",
   "pilot",
   "co_pilot",
@@ -183,6 +185,18 @@
    "fieldtype": "Data",
    "hidden": 1,
    "label": "Airline"
+  },
+  {
+   "fetch_from": ".",
+   "fieldname": "source_gate",
+   "fieldtype": "Data",
+   "label": "Source Gate"
+  },
+  {
+   "fetch_from": ".",
+   "fieldname": "destination_gate",
+   "fieldtype": "Data",
+   "label": "Destination Gate"
   }
  ],
  "has_web_view": 1,
@@ -195,7 +209,7 @@
    "link_fieldname": "flight"
   }
  ],
- "modified": "2023-10-28 17:03:51.994527",
+ "modified": "2023-10-28 19:29:00.459362",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Flight",
