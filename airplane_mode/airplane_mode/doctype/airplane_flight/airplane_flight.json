@@ -191,7 +191,6 @@
    "fieldname": "source_gate",
    "fieldtype": "Select",
    "label": "Source Gate",
-   "options": "Select Source Airport",
    "reqd": 1
   },
   {
@@ -199,7 +198,6 @@
    "fieldname": "destination_gate",
    "fieldtype": "Select",
    "label": "Destination Gate",
-   "options": "Select Destination Airport",
    "reqd": 1
   }
  ],
@@ -213,7 +211,7 @@
    "link_fieldname": "flight"
   }
  ],
- "modified": "2023-10-29 10:30:26.737965",
+ "modified": "2023-10-29 11:07:23.513784",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Flight",

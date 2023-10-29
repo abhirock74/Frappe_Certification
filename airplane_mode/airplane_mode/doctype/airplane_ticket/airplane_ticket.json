@@ -14,9 +14,11 @@
   "section_break_hfpy",
   "source_airport",
   "source_airport_code",
+  "source_gate_no",
   "column_break_kcif",
   "destination_airport",
   "destination_airport_code",
+  "destination_gate_no",
   "section_break_no7o",
   "status",
   "column_break_nuab",
@@ -184,6 +186,18 @@
    "fieldtype": "Data",
    "label": "Seat",
    "read_only": 1
+  },
+  {
+   "fetch_from": "flight.source_gate",
+   "fieldname": "source_gate_no",
+   "fieldtype": "Data",
+   "label": "Source Gate No"
+  },
+  {
+   "fetch_from": "flight.destination_gate",
+   "fieldname": "destination_gate_no",
+   "fieldtype": "Data",
+   "label": "Destination Gate No"
   }
  ],
  "index_web_pages_for_search": 1,
@@ -194,7 +208,7 @@
    "link_fieldname": "airplane"
   }
  ],
- "modified": "2023-10-27 07:44:35.177518",
+ "modified": "2023-10-29 11:09:31.493560",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Ticket",
