@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Shop Manage\"}}]",
+ "content": "[{\"id\":\"UNDrJuZXpB\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Shop Manage</span>\",\"col\":12}},{\"id\":\"JdQwoiUIFD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Tenant\",\"col\":3}}]",
  "creation": "2023-10-30 08:04:18.281673",
  "custom_blocks": [],
  "docstatus": 0,
@@ -12,7 +12,7 @@
  "is_hidden": 0,
  "label": "Shop Manage",
  "links": [],
- "modified": "2023-10-30 08:05:21.193631",
+ "modified": "2023-10-30 12:59:41.873117",
  "modified_by": "Administrator",
  "module": "airport shop management",
  "name": "Shop Manage",
@@ -23,6 +23,14 @@
  "quick_lists": [],
  "roles": [],
  "sequence_id": 6.0,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Tenant",
+   "link_to": "Tenant",
+   "type": "DocType"
+  }
+ ],
  "title": "Shop Manage"
 }
