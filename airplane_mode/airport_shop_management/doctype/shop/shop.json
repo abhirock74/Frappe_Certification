@@ -1,0 +1,84 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-30 13:10:51.281689",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "shop_name",
+  "shop_number",
+  "status",
+  "area",
+  "airport",
+  "tenant"
+ ],
+ "fields": [
+  {
+   "fieldname": "shop_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Shop Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "shop_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Shop Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tenant",
+   "fieldtype": "Link",
+   "label": "Tenant",
+   "options": "Tenant"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nAvailable\nBooked",
+   "reqd": 1
+  },
+  {
+   "fieldname": "airport",
+   "fieldtype": "Link",
+   "label": "Airport",
+   "options": "Airport",
+   "reqd": 1
+  },
+  {
+   "description": "Area is in meter square",
+   "fieldname": "area",
+   "fieldtype": "Data",
+   "label": "Area",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-30 13:16:03.484515",
+ "modified_by": "Administrator",
+ "module": "airport shop management",
+ "name": "Shop",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
