@@ -1,0 +1,18 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Tenant",
+  "email": "sujeet.yadav@suvaidyam.com",
+  "modified": "2023-11-04 23:13:44.853495",
+  "name": "a7f0db45f9",
+  "tenant_name": "Sujeet"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Tenant",
+  "email": "abhishek.singh@suvaidyam.com",
+  "modified": "2023-11-04 23:14:10.498016",
+  "name": "ed7b3e5319",
+  "tenant_name": "Abhishek Singh"
+ }
+]
