@@ -1,0 +1,32 @@
+{
+ "chart_name": "No of Shop by Airports",
+ "chart_type": "Report",
+ "creation": "2023-11-04 23:18:17.038775",
+ "custom_options": "{\"x_field\": \"airport\", \"chart_type\": \"Pie\", \"y_axis_fields\": [{\"idx\": 1, \"__islocal\": true, \"name\": \"row 1\", \"y_field\": \"count\"}], \"y_fields\": [\"count\"], \"colors\": [null]}",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "filters_json": "{}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "modified": "2023-11-04 23:18:44.878148",
+ "modified_by": "Administrator",
+ "module": "airport shop management",
+ "name": "No of Shop by Airports",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "No of Shop by airport",
+ "roles": [],
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Pie",
+ "use_report_chart": 0,
+ "x_field": "airport",
+ "y_axis": [
+  {
+   "y_field": "count"
+  }
+ ]
+}
