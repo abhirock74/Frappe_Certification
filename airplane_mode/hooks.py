@@ -13,7 +13,10 @@ fixtures=[
     "Airport",
     "Flight Passenger",
     "Flight Attendant",
-    "Pilots"
+    "Pilots",
+    "Contract",
+    "Shop",
+    "Tenant"
 ]
 
 # Includes in <head>
