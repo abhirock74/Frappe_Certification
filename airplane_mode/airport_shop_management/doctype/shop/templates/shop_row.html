@@ -1,0 +1,6 @@
+<div>
+	{% if doc.status =="Booked" and doc.is_published %}
+	<a href="{{ doc.route }}">{{ doc.shop_name}}</a>
+	{% endif %}
+</div>
+<!-- this is a sample default list template -->
