@@ -1,11 +1,15 @@
 {
  "charts": [
   {
+   "chart_name": "shops are available or booked",
+   "label": "shops are available or booked"
+  },
+  {
    "chart_name": "No of Shop by Airports",
    "label": "No of Shop by Airports"
   }
  ],
- "content": "[{\"id\":\"UNDrJuZXpB\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Shop Manage</span>\",\"col\":12}},{\"id\":\"E-ys7FJ7LN\",\"type\":\"chart\",\"data\":{\"chart_name\":\"No of Shop by Airports\",\"col\":12}},{\"id\":\"JdQwoiUIFD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Tenant\",\"col\":3}},{\"id\":\"T2G22Dk1Tr\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Shops\",\"col\":3}},{\"id\":\"p-pyyKPors\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Contract\",\"col\":3}},{\"id\":\"zybUYnqLSK\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"jJaJNcL_Pi\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports of Shop Management</b></span>\",\"col\":12}},{\"id\":\"yT31ew4Sj5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"No Of Shop By Airport\",\"col\":12}},{\"id\":\"oRMl0NpAEJ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Shops Are Available Or Booked\",\"col\":12}}]",
+ "content": "[{\"id\":\"E-ys7FJ7LN\",\"type\":\"chart\",\"data\":{\"chart_name\":\"No of Shop by Airports\",\"col\":6}},{\"id\":\"bHYiOqhPxW\",\"type\":\"chart\",\"data\":{\"chart_name\":\"shops are available or booked\",\"col\":6}},{\"id\":\"zybUYnqLSK\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"JdQwoiUIFD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Tenant\",\"col\":3}},{\"id\":\"T2G22Dk1Tr\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Shops\",\"col\":3}},{\"id\":\"p-pyyKPors\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Contract\",\"col\":3}},{\"id\":\"jJaJNcL_Pi\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports of Shop Management</b></span>\",\"col\":12}},{\"id\":\"yT31ew4Sj5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"No Of Shop By Airport\",\"col\":12}},{\"id\":\"oRMl0NpAEJ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Shops Are Available Or Booked\",\"col\":12}}]",
  "creation": "2023-10-30 08:04:18.281673",
  "custom_blocks": [],
  "docstatus": 0,
@@ -17,7 +21,7 @@
  "is_hidden": 0,
  "label": "Shop Manage",
  "links": [],
- "modified": "2023-11-05 08:30:52.483122",
+ "modified": "2023-11-05 08:34:22.108054",
  "modified_by": "Administrator",
  "module": "airport shop management",
  "name": "Shop Manage",
