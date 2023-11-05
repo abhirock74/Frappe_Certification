@@ -1,7 +1,10 @@
 {% extends "templates/web.html" %}
 
 {% block page_content %}
-<h1>{{ title }}</h1>
+<h3>{{"Welcome to "+ doc.shop_name + " of "+doc.airport }}</h3>
+<p>{{"Our shop is on "+ doc.airport }}</p>
+<p>{{"if you go to " + doc.airport + " please visit our shop"}}</p>
+<p>Thank You</p>
 {% endblock %}
 
 <!-- this is a sample default web page template -->
