@@ -3,6 +3,11 @@
 
 frappe.query_reports["shops are available or booked"] = {
 	"filters": [
-
+		{
+			"fieldname": "airport",
+			"fieldtype": "Link",
+			"label": "Airoprt",
+			"options":"Airport"
+		}
 	]
 };
