@@ -1,0 +1,45 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"5_JPMr2WvZ\",\"type\":\"paragraph\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Demo doctypes</span>\",\"col\":12}},{\"id\":\"uLts3WVClv\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Student Demo\",\"col\":3}},{\"id\":\"s06Myz9g9o\",\"type\":\"paragraph\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Demo repoarts</span>\",\"col\":12}},{\"id\":\"j0CfRVaXVK\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Three Legend In One Graph\",\"col\":3}}]",
+ "creation": "2024-02-17 14:29:26.440678",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "tool",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Erpnext learning",
+ "links": [],
+ "modified": "2024-02-17 16:45:40.676949",
+ "modified_by": "Administrator",
+ "module": "Airplane Mode",
+ "name": "Erpnext learning",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 6.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Student Demo",
+   "link_to": "Student Demo",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Three Legend In One Graph",
+   "link_to": "Three legend in one graph",
+   "type": "Report"
+  }
+ ],
+ "title": "Erpnext learning"
+}
