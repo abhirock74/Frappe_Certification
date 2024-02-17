@@ -8,7 +8,10 @@
   "name1",
   "science_marks",
   "maths_marks",
-  "english_marks"
+  "english_marks",
+  "dashboard_tab",
+  "tab_3_tab",
+  "dd"
  ],
  "fields": [
   {
@@ -36,11 +39,27 @@
    "fieldname": "english_marks",
    "fieldtype": "Int",
    "label": "English marks"
+  },
+  {
+   "fieldname": "dashboard_tab",
+   "fieldtype": "Tab Break",
+   "label": "Dashboard",
+   "show_dashboard": 1
+  },
+  {
+   "fieldname": "tab_3_tab",
+   "fieldtype": "Tab Break",
+   "label": "Tab 3"
+  },
+  {
+   "fieldname": "dd",
+   "fieldtype": "Autocomplete",
+   "label": "dd"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-02-17 16:57:52.978269",
+ "modified": "2024-02-17 17:16:53.665218",
  "modified_by": "Administrator",
  "module": "Erpnext learning",
  "name": "Student Demo",
