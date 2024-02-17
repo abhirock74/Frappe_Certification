@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-17 16:54:52.901600",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "science_marks",
+  "maths_marks",
+  "english_marks"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "science_marks",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Science marks",
+   "reqd": 1
+  },
+  {
+   "fieldname": "maths_marks",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Maths marks",
+   "reqd": 1
+  },
+  {
+   "fieldname": "english_marks",
+   "fieldtype": "Int",
+   "label": "English marks"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-02-17 16:57:52.978269",
+ "modified_by": "Administrator",
+ "module": "Erpnext learning",
+ "name": "Student Demo",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

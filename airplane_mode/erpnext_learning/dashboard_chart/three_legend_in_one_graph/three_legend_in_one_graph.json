@@ -1,0 +1,38 @@
+{
+ "chart_name": "Three legend in one graph",
+ "chart_type": "Report",
+ "creation": "2024-02-17 16:27:13.283758",
+ "custom_options": "{\"x_field\": \"name1\", \"chart_type\": \"Bar\", \"y_axis_fields\": [{\"idx\": 1, \"__islocal\": true, \"name\": \"row 1\", \"y_field\": \"maths_marks\"}, {\"idx\": 2, \"__islocal\": true, \"name\": \"row 2\", \"y_field\": \"scienc_marks\"}, {\"idx\": 3, \"__islocal\": true, \"name\": \"row 3\", \"y_field\": \"english_maths\"}], \"y_fields\": [\"maths_marks\", \"scienc_marks\", \"english_maths\"], \"colors\": [null, null, null]}",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "filters_json": "{}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "modified": "2024-02-17 17:00:08.465583",
+ "modified_by": "Administrator",
+ "module": "Erpnext learning",
+ "name": "Three legend in one graph",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "Three legend in one graph",
+ "roles": [],
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Bar",
+ "use_report_chart": 0,
+ "x_field": "name1",
+ "y_axis": [
+  {
+   "y_field": "maths_marks"
+  },
+  {
+   "y_field": "english_marks"
+  },
+  {
+   "y_field": "science_marks"
+  }
+ ]
+}
