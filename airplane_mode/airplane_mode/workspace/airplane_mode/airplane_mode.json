@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"gp-hRNV8GO\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Airplane Mode</span>\",\"col\":12}},{\"id\":\"A5lsZ61aD8\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Airlines\",\"col\":4}},{\"id\":\"-l08w55Kjn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Airplane Flight\",\"col\":3}},{\"id\":\"LC8a9QnH44\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"All Airplane\",\"col\":4}},{\"id\":\"qzXbfMbywv\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"All Passinger\",\"col\":4}},{\"id\":\"aUJLL1MTxK\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Airplane Ticket\",\"col\":3}},{\"id\":\"PwfRr94OKL\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"VjYn0WjC5k\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports</b></span>\",\"col\":12}},{\"id\":\"nwcR5p5UY7\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Airplanes By Airline\",\"col\":3}},{\"id\":\"qyVfpCi8ec\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Revenue By Airline\",\"col\":3}},{\"id\":\"oqcmtl_VMz\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add On Popularity\",\"col\":3}}]",
+ "content": "[{\"id\":\"AQacdqwia7\",\"type\":\"onboarding\",\"data\":{\"onboarding_name\":\"Airplane Mode\",\"col\":12}},{\"id\":\"gp-hRNV8GO\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Airplane Mode</span>\",\"col\":12}},{\"id\":\"A5lsZ61aD8\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Airlines\",\"col\":4}},{\"id\":\"-l08w55Kjn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Airplane Flight\",\"col\":3}},{\"id\":\"LC8a9QnH44\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"All Airplane\",\"col\":4}},{\"id\":\"qzXbfMbywv\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"All Passinger\",\"col\":4}},{\"id\":\"aUJLL1MTxK\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Airplane Ticket\",\"col\":3}},{\"id\":\"PwfRr94OKL\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"VjYn0WjC5k\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports</b></span>\",\"col\":12}},{\"id\":\"nwcR5p5UY7\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Airplanes By Airline\",\"col\":3}},{\"id\":\"qyVfpCi8ec\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Revenue By Airline\",\"col\":3}},{\"id\":\"oqcmtl_VMz\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add On Popularity\",\"col\":3}}]",
  "creation": "2023-09-11 10:41:09.324605",
  "custom_blocks": [],
  "docstatus": 0,
@@ -12,7 +12,7 @@
  "is_hidden": 0,
  "label": "Airplane Mode",
  "links": [],
- "modified": "2024-02-17 12:58:58.810746",
+ "modified": "2024-02-17 14:03:19.712047",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Mode",

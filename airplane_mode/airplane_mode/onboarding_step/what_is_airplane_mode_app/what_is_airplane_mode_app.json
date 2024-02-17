@@ -1,0 +1,22 @@
+{
+ "action": "Show Form Tour",
+ "action_label": "Click",
+ "creation": "2024-02-17 13:59:55.517210",
+ "description": "hello welcome to airplane mode introduction",
+ "docstatus": 0,
+ "doctype": "Onboarding Step",
+ "idx": 1,
+ "intro_video_url": "https://youtu.be/tTNAQbeXSwA?si=0mOTEz2OTTnY07Zw",
+ "is_complete": 0,
+ "is_single": 0,
+ "is_skipped": 0,
+ "modified": "2024-02-17 14:02:24.456212",
+ "modified_by": "Administrator",
+ "name": "What is Airplane mode App",
+ "owner": "Administrator",
+ "reference_document": "Airline",
+ "show_form_tour": 0,
+ "show_full_form": 0,
+ "title": "What is Airplane mode App",
+ "validate_action": 1
+}

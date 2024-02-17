@@ -1,0 +1,26 @@
+{
+ "allow_roles": [
+  {
+   "role": "All"
+  }
+ ],
+ "creation": "2024-02-17 13:52:10.757179",
+ "docstatus": 0,
+ "doctype": "Module Onboarding",
+ "documentation_url": "https://www.suvaidyam.com/",
+ "idx": 0,
+ "is_complete": 0,
+ "modified": "2024-02-17 14:02:46.066729",
+ "modified_by": "Administrator",
+ "module": "Airplane Mode",
+ "name": "Airplane Mode",
+ "owner": "Administrator",
+ "steps": [
+  {
+   "step": "What is Airplane mode App"
+  }
+ ],
+ "subtitle": "Demo task for learning ",
+ "success_message": "Success done",
+ "title": "Ariplane Mode onboarding Welcome"
+}

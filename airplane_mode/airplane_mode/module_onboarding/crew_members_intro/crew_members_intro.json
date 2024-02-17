@@ -1,0 +1,26 @@
+{
+ "allow_roles": [
+  {
+   "role": "Administrator"
+  }
+ ],
+ "creation": "2024-02-17 14:05:06.246745",
+ "docstatus": 0,
+ "doctype": "Module Onboarding",
+ "documentation_url": "https://www.suvaidyam.com/",
+ "idx": 0,
+ "is_complete": 0,
+ "modified": "2024-02-17 14:05:52.570511",
+ "modified_by": "Administrator",
+ "module": "Airplane Mode",
+ "name": "Crew Members Intro",
+ "owner": "Administrator",
+ "steps": [
+  {
+   "step": "What is Airplane mode App"
+  }
+ ],
+ "subtitle": "Demo task for learning ",
+ "success_message": "Success done",
+ "title": "Crew Members Intro onboarding Welcome"
+}
