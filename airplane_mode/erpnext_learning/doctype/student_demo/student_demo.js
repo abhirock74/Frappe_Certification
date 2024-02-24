@@ -4,6 +4,7 @@
 frappe.ui.form.on("Student Demo", {
 	refresh(frm) {
         console.log(frm)
+		frm.set_read_only();
         const tour_name = 'Creating Custom Fields';
         frm.tour
           .init({ tour_name })
