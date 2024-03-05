@@ -6,6 +6,7 @@
  "engine": "InnoDB",
  "field_order": [
   "name1",
+  "phone_no",
   "table_uugd"
  ],
  "fields": [
@@ -20,11 +21,18 @@
    "fieldname": "table_uugd",
    "fieldtype": "Table",
    "options": "Children table"
+  },
+  {
+   "fieldname": "phone_no",
+   "fieldtype": "Phone",
+   "in_list_view": 1,
+   "label": "Phone no",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-03-04 16:14:57.698498",
+ "modified": "2024-03-04 17:32:30.729005",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Parent Table",

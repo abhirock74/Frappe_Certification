@@ -6,37 +6,53 @@ frappe.ui.form.on("Parent Table", {
         console.log("heheeh")
         _frm = frm
 	},
+    phone_no:function(frm){
+        console.log("phone no")
+        if(frm.doc.phone_no < 4){
+            // console.log("less than 4")
+            // frm.set_value("phone_no",'+91-')
+        }
+    }
 });
-const apply_filter_on_id_document = async () => {
-    //  APPLY Filter in ID DOCUMENT
-    var child_table = _frm.fields_dict['table_uugd'].grid;
-    if (child_table) {
+const apply_filter_on_id_document = async (frm , filter_value) => {
+    var child_table = frm.fields_dict['table_uugd'];
+    // if (child_table) {
+      console.log('event hit',filter_value);
       try {
-        child_table.get_field('airplane').get_query = function () {
+        frm.set_query('airplane', 'table_uugd', () => {
           return {
-            filters: [
-              ['Airplane', 'airline', 'IN', cur_frm.doc.table_uugd.map(function (item) {
-                return item.airlines;
-              })]
-            ]
-          };
-        };
+              filters: {
+                airline: filter_value
+              }
+          }
+        })
+        // child_table.get_field('airplane').get_query = function () {
+        //   return {
+        //     filters: [
+        //       ['Airplane', 'airline', '=', filter_value]
+        //     ]
+        //   };
+        // };
       } catch (error) {
         console.error(error)
       }
     }
-  }
+  // }
 // ********************* ID documents CHILD Table***********************
 frappe.ui.form.on('Children table', {
     form_render: async function (frm, cdt, cdn) {
         console.log("hello")
     },
     table_uugd_add: async function (frm, cdt, cdn) {
-      console.log("hello everyone")
-      apply_filter_on_id_document()
+      // console.log("hello everyone")
+      // apply_filter_on_id_document(frm)
     },
     airlines: async function (frm , cdt , cdn){
-        apply_filter_on_id_document()
+      let row = frappe.get_doc(cdt, cdn);
+        // console.log("hello everyone", )
+        await apply_filter_on_id_document(frm , row.airlines)
+      frm.refresh_field("table_uugd.airplane")
+      frm.refresh_field("airplane")
     }
   })
   
