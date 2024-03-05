@@ -5,6 +5,7 @@ frappe.ui.form.on("Parent Table", {
 	refresh(frm) {
         console.log("heheeh")
         _frm = frm
+        frm.fields_dict.table_uugd.grid.update_docfield_property("airplane", "options", ["hhhhh","hhhhhuuuuurr"]);
 	},
     phone_no:function(frm){
         console.log("phone no")
@@ -44,13 +45,14 @@ frappe.ui.form.on('Children table', {
         console.log("hello")
     },
     table_uugd_add: async function (frm, cdt, cdn) {
+      frm.fields_dict.table_uugd.grid.update_docfield_property("airplane", "options", ["hhhhh"]);
       // console.log("hello everyone")
       // apply_filter_on_id_document(frm)
     },
     airlines: async function (frm , cdt , cdn){
       let row = frappe.get_doc(cdt, cdn);
         // console.log("hello everyone", )
-        await apply_filter_on_id_document(frm , row.airlines)
+        // await apply_filter_on_id_document(frm , row.airlines)
       frm.refresh_field("table_uugd.airplane")
       frm.refresh_field("airplane")
     }
