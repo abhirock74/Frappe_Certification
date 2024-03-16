@@ -58,3 +58,7 @@ frappe.ui.form.on('Children table', {
     }
   })
   
+
+  frappe.realtime.on('update_progress', (data) => {
+    console.log(data)
+});
